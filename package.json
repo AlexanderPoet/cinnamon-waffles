@@ -1,0 +1,50 @@
+{
+  "name": "cinnamon-waffles",
+  "version": "1.0.0",
+  "description": "superSecret",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server",
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderPoet/cinnamon-waffles.git"
+  },
+  "keywords": [
+    "Po"
+  ],
+  "author": "Po",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.0",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "6.24.1",
+    "body-parser": "^1.17.1",
+    "compression": "1.7.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "morgan": "^1.8.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "jest": "^22.1.4",
+    "nodemon": "^1.14.12",
+    "redux-devtools": "^3.4.1",
+    "webpack": "^2.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexanderPoet/cinnamon-waffles/issues"
+  },
+  "homepage": "https://github.com/AlexanderPoet/cinnamon-waffles#readme"
+}
