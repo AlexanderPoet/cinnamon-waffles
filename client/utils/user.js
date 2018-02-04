@@ -5,6 +5,7 @@ export default (function () {
   return class {
     constructor(x) {
       this.queue = [];
+      this.delete = '';
       this.userInfo = createUser();
     }
     addWorkout(x) {
